@@ -3,11 +3,10 @@ package com.bridgelabz.linecomparison;
 public class LineComparisonMain {
     public static void main(String[] args) {
 
-        // UC2 CHECK THE EQUALITY OF TWO LINES
+        // UC3 COMPARISON OF TWO LINES
 
-        LineComparison equality = new LineComparison();
-        equality.equalityOfLines();
-
+        LineComparison compare = new LineComparison();
+        compare.compareTwoLines();
     }
 
 }

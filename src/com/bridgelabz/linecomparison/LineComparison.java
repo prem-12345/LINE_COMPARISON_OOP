@@ -55,6 +55,31 @@ public class LineComparison {
         }
 
     }
+
+    public void compareTwoLines() {
+
+        // UC3 COMPARISON OF TWO LINES
+
+        double Length_line1;
+        double Length_line2;
+
+
+        System.out.println("SET THE CO-ORDINATES OF LINE 1");
+        Length_line1 = calculateLength();
+
+        System.out.println("SET THE CO-ORDINATES OF LINE 2");
+        Length_line2 = calculateLength();
+
+        if (Length_line1 == Length_line2) {
+            System.out.println("The length of line 1 is equal to length of line 2");
+        } else if (Length_line1 > Length_line2) {
+            System.out.println("The length of line 1 is greater then length of line; 2");
+        } else {
+            System.out.println("The length of line 1 is less then length of line 2");
+        }
+
+
+    }
 }
 
 
