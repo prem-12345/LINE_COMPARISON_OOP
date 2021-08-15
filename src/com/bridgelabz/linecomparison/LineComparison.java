@@ -34,7 +34,27 @@ public class LineComparison {
         return length;
     }
 
+    public void equalityOfLines() {
 
+        // UC2 CHECK THE EQUALITY OF TWO LINES
+
+        double Length_line1;
+        double Length_line2;
+
+
+        System.out.println("SET THE CO-ORDINATES OF LINE 1");
+        Length_line1 = calculateLength();
+
+        System.out.println("SET THE CO-ORDINATES OF LINE 2");
+        Length_line2 = calculateLength();
+
+        if (Length_line1 == Length_line2) {
+            System.out.println("The lengths are equal");
+        } else {
+            System.out.println("The lengths are not equal");
+        }
+
+    }
 }
 
 

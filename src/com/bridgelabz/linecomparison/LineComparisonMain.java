@@ -3,11 +3,10 @@ package com.bridgelabz.linecomparison;
 public class LineComparisonMain {
     public static void main(String[] args) {
 
-        // UC1 CALCULATE THE LENGTH OF LINE
+        // UC2 CHECK THE EQUALITY OF TWO LINES
 
-        LineComparison lengthcalculate = new LineComparison();
-        lengthcalculate.calculateLength();
-
+        LineComparison equality = new LineComparison();
+        equality.equalityOfLines();
 
     }
 
